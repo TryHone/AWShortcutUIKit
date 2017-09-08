@@ -22,7 +22,7 @@ pod 'AWShortcutUIKit'
 
 ## Author
 
-gurongkang, 1075789745@qq.com
+AlanWang, 1075789745@qq.com
 
 ## License
 
