@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AWShortcutUIKit_Example' do
+  pod 'AWShortcutUIKit', :path => '../'
+
+  target 'AWShortcutUIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

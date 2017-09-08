@@ -1,0 +1,16 @@
+PODS:
+  - AWShortcutUIKit (0.1.0)
+
+DEPENDENCIES:
+  - AWShortcutUIKit (from `../`)
+
+EXTERNAL SOURCES:
+  AWShortcutUIKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AWShortcutUIKit: ff64d60c9716447aec2dabae216ba1eecbc306e9
+
+PODFILE CHECKSUM: 9db853393b818325d912534921b17de00ce05434
+
+COCOAPODS: 1.2.1
