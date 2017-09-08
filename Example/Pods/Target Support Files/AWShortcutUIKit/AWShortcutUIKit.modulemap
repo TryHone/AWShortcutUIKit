@@ -1,6 +1,0 @@
-framework module AWShortcutUIKit {
-  umbrella header "AWShortcutUIKit-umbrella.h"
-
-  export *
-  module * { export * }
-}
