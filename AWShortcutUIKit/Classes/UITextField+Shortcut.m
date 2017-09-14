@@ -69,7 +69,30 @@
         return self;
     };
 }
-
+-(UITextField * (^)(UIColor *placeholderColor))AWplaceholderColor{
+    return ^(UIColor *placeholderColor){
+        [self setValue:placeholderColor forKeyPath:@"_placeholderLabel.textColor"];
+        return self;
+    };
+}
+-(UITextField * (^)(NSString *placeholderColorStr))AWplaceholderColorQ{
+    return ^(NSString *placeholderColorStr){
+        [self setValue:[UIColor colorWithHexString:placeholderColorStr] forKeyPath:@"_placeholderLabel.textColor"];
+        return self;
+    };
+}
+-(UITextField * (^)(UIFont  *font))AWplaceholderFont{
+    return ^(UIFont  *font){
+        [self setValue:font forKeyPath:@"_placeholderLabel.font"];
+        return self;
+    };
+}
+-(UITextField * (^)(NSInteger sysfontSize))AWplaceholderFontQ{
+    return ^(NSInteger sysfontSize){
+        [self setValue:[UIFont systemFontOfSize:sysfontSize] forKeyPath:@"_placeholderLabel.font"];
+        return self;
+    };
+}
 -(UITextField * (^)(NSAttributedString     *attributedPlaceholder))AWattributedPlaceholder{
     return ^(NSAttributedString     *attributedPlaceholder){
         self.attributedPlaceholder = attributedPlaceholder;

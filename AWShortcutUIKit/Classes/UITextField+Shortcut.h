@@ -19,6 +19,10 @@
 @property(nonatomic,weak,readonly)UITextField * (^AWborderStyle)(UITextBorderStyle       borderStyle);
 @property(nonatomic,weak,readonly)UITextField * (^AWdefaultTextAttributes)(NSDictionary<NSString *, id>           *defaultTextAttributes);
 @property(nonatomic,weak,readonly)UITextField * (^AWplaceholder)(NSString               *placeholder);
+@property(nonatomic,weak,readonly)UITextField * (^AWplaceholderColor)(UIColor *placeholderColor);
+@property(nonatomic,weak,readonly)UITextField * (^AWplaceholderColorQ)(NSString *placeholderColorStr);
+@property(nonatomic,weak,readonly)UITextField * (^AWplaceholderFont)(UIFont  *font);
+@property(nonatomic,weak,readonly)UITextField * (^AWplaceholderFontQ)(NSInteger sysfontSize);
 @property(nonatomic,weak,readonly)UITextField * (^AWattributedPlaceholder)(NSAttributedString     *attributedPlaceholder);
 @property(nonatomic,weak,readonly)UITextField * (^AWbackgroundImage)(UIImage                *background);
 @property(nonatomic,weak,readonly)UITextField * (^AWdisabledBackgroundImage)(UIImage                *disabledBackground);
